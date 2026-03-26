@@ -319,7 +319,7 @@ def send_notification(digest: str, channel: str = None):
             
             # 读取 gateway URL 和 token
             gateway_url = os.environ.get('OPENCLAW_GATEWAY_URL', 'http://localhost:10845')
-            gateway_token = os.environ.get('OPENCLAW_GATEWAY_TOKEN', '5cc41287795243acac103ea8a4aab760')
+            gateway_token = os.environ.get('OPENCLAW_GATEWAY_TOKEN', '5xxxxxxxxxxxxxxxxxxxxx')
             
             # 构建请求 - 使用 Gateway tools/invoke API
             url = f"{gateway_url}/tools/invoke"
